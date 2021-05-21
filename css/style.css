@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: hotpink;
+}
+/*Barra de navegació*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #ff1493;
+  color: #ffe6f2;
+  transition: 1s;
+
+}
+nav{
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  font-family: 'Krona One', sans-serif;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.doja{
+  background-image: url('../img/doja_min.png');
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  right:0;
+}
+
+button{
+  background-color: hotpink;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid hotpink;
+}
+
+.button1:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+button{
+  
+  border: 2px solid black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  float: left;
+  position: relative;
+  clear: auto;
+  left: 20%;
+  right: 50%;
+}
+
+button:hover {
+  background-color: #ff1493;
+  color: #ffe6f2;
+  transition: 1s;
+
+}
